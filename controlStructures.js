@@ -1,11 +1,11 @@
 document.getElementById("btnOne").onclick = function() {
-    var num = prompt("Enter a number");
+   /* var num = prompt("Enter a number");
     if(num < 50){
         alert(num + " is under 50");
     }
     else{
         alert(num + " is above 50");
-    }
+    }*/
 };
 
 document.getElementById("btnTwo").onclick = function() {
