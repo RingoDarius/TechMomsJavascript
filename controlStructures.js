@@ -87,10 +87,6 @@ document.getElementById("btnSix").onclick = function() {
 	var txt = document.getElementById("txtSix").value; alert(txt);
 	eval(txt);
 	
-	/*TODO:
-	The Wicked roller coaster at Lagoon has a height requirement.  Write a script to determine if Guests may ride.
-	Allow the user to enter their height in inches and have the script report back based on the following:
-	Guests May Ride(above 50 inches), must ride in a booster seat(46 to 50 inches), or may not ride. */
 };
 
 
@@ -113,33 +109,19 @@ var txt = document.getElementById("txtSeven").value;
 	}
  */
 };
+
+
+
 document.getElementById("btnEight").onclick = function() {
 var txt = document.getElementById("txtEight").value;
 	eval(txt);
 	
-/*To graduate with an associate degree in CS, you must have a GPA of 2.7 
-and above and 63 credits.  Use the && (and symbol) to code the script to get this to work.
-Allow the user to enter their GPA and number of credits.  The program will report the following messages
-"Credit Deficient", "Low GPA", "You may graduate"*/
 };
 
 document.getElementById("btnNine").onclick = function() {
 	var txt = document.getElementById("txtNine").value;
 	eval(txt);
-	/*
-	var num = 0;
-	num++;
-	alert("What does ++ do? The number was 0 and now it is " + num);
 
-	num += 3;
-	alert("What does += do? The number was 1 and now it is " + num);
-
-	num -= 2;
-	alert("What does -= do? The number was 4 and now it is " + num);
-
-	//TODO
-	alert("Write a command above to multiply the number by 3 so it ends up being 6: " + num);
- */
 };
 
 document.getElementById("btnTen").onclick = function() {
@@ -153,8 +135,9 @@ while(num % div != 0){
 	div--;
 }
 alert(div + " is the largest divisor of " + num);
-};
 */
+};
+
 document.getElementById("btnEleven").onclick = function() {
 var txt = document.getElementById("txtEleven").value;
 	eval(txt);
