@@ -84,7 +84,7 @@ var txt = document.getElementById("txtFive").value;
 };
 
 document.getElementById("btnSix").onclick = function() {
-	var txt = document.getElementById("txtSix").value;
+	var txt = document.getElementById("txtSix").value; alert(txt);
 	eval(txt);
 	
 	/*TODO:
