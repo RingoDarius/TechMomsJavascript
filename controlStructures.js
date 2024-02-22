@@ -1,4 +1,6 @@
 document.getElementById("btnOne").onclick = function() {
+	var txt = document.getElementById("txtOne").value;
+	eval(txt);
    /* var num = prompt("Enter a number");
     if(num < 50){
         alert(num + " is under 50");
@@ -9,20 +11,24 @@ document.getElementById("btnOne").onclick = function() {
 };
 
 document.getElementById("btnTwo").onclick = function() {
-    var num1 = 7;
+	var txt = document.getElementById("txtTwo").value;
+	eval(txt);
+    /*var num1 = 7;
     var num2 = 7;
     if(num1 = 2){
         alert("Wait, what was the value of num1?  " + num1 );
     }
     if(num2 == 7){
         alert("What is the difference between = and ==?");
-    }
+    }*/
 };
 
 
 
 document.getElementById("btnThree").onclick = function() {
-    var num = prompt("Type in a number, try the values 7, 10, 0, and -1");
+   var txt = document.getElementById("txtThree").value;
+	eval(txt);
+	/*var num = prompt("Type in a number, try the values 7, 10, 0, and -1");
     if(num == 7){
         alert("This statement uses several if statements");
     }
@@ -34,10 +40,13 @@ document.getElementById("btnThree").onclick = function() {
     }
     else{
         alert("That was a negative number");
-    }
+    }*/
 };
 
 document.getElementById("btnFour").onclick = function() {
+	var txt = document.getElementById("txtFour").value;
+	eval(txt);
+	/*
     var num = prompt("Type in a number, try the values 7, 10, 0, and -1");
     if(num == 7){
         alert("This statement uses an else if statement");
@@ -51,14 +60,17 @@ document.getElementById("btnFour").onclick = function() {
     else{
         alert("That was a negative number");
     }
-
+*/
 };
 
 
 
 document.getElementById("btnFive").onclick = function() {
-	/*Predict what the output will be, then run the code for the following values? 215, 50, 30*/
-	var temp = parseFloat(prompt("Enter tempature: "));
+var txt = document.getElementById("txtFive").value;
+	eval(txt);
+	
+	/*Predict what the output will be, then run the code for the following values. 215, 50, 30
+	var temp = parseFloat(prompt("Enter temperature: "));
 	if(temp > 212){
 		alert("Boiling water");
 	}
@@ -68,10 +80,13 @@ document.getElementById("btnFive").onclick = function() {
 	else{
 		alert("Ice");
 	}
-
+*/
 };
 
 document.getElementById("btnSix").onclick = function() {
+	var txt = document.getElementById("txtSix").value;
+	eval(txt);
+	
 	/*TODO:
 	The Wicked roller coaster at Lagoon has a height requirement.  Write a script to determine if Guests may ride.
 	Allow the user to enter their height in inches and have the script report back based upon the following:
@@ -81,9 +96,12 @@ document.getElementById("btnSix").onclick = function() {
 
 
 document.getElementById("btnSeven").onclick = function() {
+var txt = document.getElementById("txtSeven").value;
+	eval(txt);
+	
 	/*One side of a triangle cannot be larger than the sum of the two other sides.  
 		This example demonstrates the use of the || (or) symbol.  Predict the output with 
-		your own inputs, then run the code to see if your prediction was correct.   */
+		your own inputs, then run the code to see if your prediction was correct.  
 	var sideA = parseFloat(prompt("Enter Side A"));
 	var sideB = parseFloat(prompt("Enter Side B"));
 	var sideC = parseFloat(prompt("Enter Side C"));
@@ -93,16 +111,22 @@ document.getElementById("btnSeven").onclick = function() {
 	else{
 		alert("Valid Triangle");
 	}
-
+ */
 };
 document.getElementById("btnEight").onclick = function() {
-/*In order to graduate with an associates degree in CS, you must have a GPA of 2.7 
+var txt = document.getElementById("txtEight").value;
+	eval(txt);
+	
+/*To graduate with an associate degree in CS, you must have a GPA of 2.7 
 and above and 63 credits.  Use the && (and symbol) to code the script to get this to work.
-Allow the user to enter their gpa and number of credits.  The program will report the following messages
+Allow the user to enter their GPA and number of credits.  The program will report the following messages
 "Credit Deficient", "Low GPA", "You may graduate"*/
 };
 
 document.getElementById("btnNine").onclick = function() {
+	var txt = document.getElementById("txtNine").value;
+	eval(txt);
+	/*
 	var num = 0;
 	num++;
 	alert("What does ++ do? The number was 0 and now it is " + num);
@@ -115,9 +139,14 @@ document.getElementById("btnNine").onclick = function() {
 
 	//TODO
 	alert("Write a command above to multiply the number by 3 so it ends up being 6: " + num);
+ */
 };
 
 document.getElementById("btnTen").onclick = function() {
+	var txt = document.getElementById("txtTen").value;
+	eval(txt);
+	
+	/*
 var num = parseInt(prompt("Enter an int value:"));
 var div = num - 1;
 while(num % div != 0){
@@ -125,13 +154,18 @@ while(num % div != 0){
 }
 alert(div + " is the largest divisor of " + num);
 };
-
+*/
 document.getElementById("btnEleven").onclick = function() {
-var band = prompt("Enter the best band ever");
+var txt = document.getElementById("txtEleven").value;
+	eval(txt);
+	
+/*var band = prompt("Enter the best band ever");
 while(band != "Aquabats"){
 	band = prompt("Nope, guess again. What is the best band ever");
 }
 alert("Yes, " + band + " is the best band ever");
+*/
+
 };
 
 
