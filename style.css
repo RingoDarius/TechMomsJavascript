@@ -15,6 +15,9 @@ header, footer{
 	width: 100%;
 	
 }
+header{
+	top: 0;
+}
 
 header h1{
 
