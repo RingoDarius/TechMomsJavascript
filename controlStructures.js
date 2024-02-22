@@ -89,8 +89,8 @@ document.getElementById("btnSix").onclick = function() {
 	
 	/*TODO:
 	The Wicked roller coaster at Lagoon has a height requirement.  Write a script to determine if Guests may ride.
-	Allow the user to enter their height in inches and have the script report back based upon the following:
-	Guests May Ride(above 50 inches), must ride in a booster seat(46 to 50 inches) or may not ride. */
+	Allow the user to enter their height in inches and have the script report back based on the following:
+	Guests May Ride(above 50 inches), must ride in a booster seat(46 to 50 inches), or may not ride. */
 };
 
 
