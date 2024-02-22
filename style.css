@@ -12,6 +12,7 @@ header, footer{
 	margin:0;
 	padding: 1em;
 	position: fixed;
+	width: 100%;
 	
 }
 
@@ -24,6 +25,7 @@ footer{
 	font-style:italic;
 	position: fixed;
 	bottom: 0px;
+	margin-top: 20px;
 }
 ol{
 	margin:1em;
