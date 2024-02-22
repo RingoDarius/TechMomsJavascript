@@ -1,4 +1,8 @@
-
+window.onerror = function myErrorHandler(err, url, line) {  
+    //Do some  stuff 
+    console.log(err) // Uncaught SyntaxError: Invalid or unexpected token at Line no:- 1
+    return false;   // so you still log errors into console 
+}
 
 document.getElementById("btnOne").onclick = function() {
 	var txt = document.getElementById("txtOne").value;
