@@ -54,7 +54,7 @@ main ol{
 
 nav{
 
-
+position: sticky;
  	padding:  1.5rem;
 }
 
