@@ -1,15 +1,16 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>JavaScript Control Structures</title>
+    <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
 		<header>
-		<h1>JavaScript Control Structures Practice</h1>
-		<p>Look at the following code segments.  For each one do the following:
+		<h1>JavaScript Variable Practice</h1>
+		<p>Look at the following code segements.  For each one do the following:
 		</p>
 		<ul>
 			<li>Predict the Output</li>
@@ -27,125 +28,146 @@
 		  <li><a href = "loops.html">Loops</a></li>
 	  </ul>
   </nav>
-	  	<main>
+	<main>
 		<ol>
-	
-
-		<li><div>
-			<p><textarea rows = "12" cols = "100" id = "txtNine">var num = 0;
-num++;
-alert("What does ++ do? The number was 0 and now it is " + num);
-
-num += 3;
-alert("What does += do? The number was 1 and now it is " + num);
-
-num -= 2;
-alert("What does -= do? The number was 4 and now it is " + num);
-
-//TODO
-alert("Write a command above to multiply the number by 3 so it ends up being 6: " + num);</textarea><button id = "btnNine">Check Answer</button></p>
+	<li><div>	
+			<p><pre>
+var language = "Javascript";
+alert(language + " Rocks!");</pre><button id = "btnOne">Check Answer</button></p>
 
 		</div></li>
 
 		<li><div>
-			<p><textarea rows = "12" cols = "100" id = "txtTen">var num = parseInt(prompt("Enter an int value:"));
-var div = num - 1;
-while(num % div != 0){
-	div--;
-}
-alert(div + " is the largest divisor of " + num);</textarea><button id = "btnTen">Check Answer</button></p>
+			<p><pre>
+var language = "Javascript";
+alert("language" + " Rocks!");</pre><button id = "btnTwo">Check Answer</button></p>
+
+		</div></li>
+
+		<li><div>
+			<p><pre>
+var num = 4 + 2;
+alert("No Quotes: " + num);</pre><button id = "btnThree">Check Answer</button></p>
+
+		</div></li>
+
+		<li><div>
+			<p><pre>
+var num = "4" + "2";
+alert("Quotes: " + num);</pre><button id = "btnFour">Check Answer</button></p>
+
+		</div></li>
+		<li><div>
+			<p><pre>
+var num = 12 + 6 / 3;
+alert("Order of Operations: " + num);</pre><button id = "btnFive">Check Answer</button></p>
+
+		</div></li>
+		<li><div>
+			<p><pre>alert("Adding " + 4 + 2);</pre><button id = "btnSix">Check Answer</button></p>
+
+		</div></li>
+		<li><div>
+			<p><pre>alert("Adding " + (4 + 2));</pre><button id = "btnSeven">Check Answer</button></p>
+
+		</div></li>
+		<li><div>
+			<p><pre>alert("Modulus " + 17 % 3);</pre><button id = "btnEight">Check Answer</button></p>
+
 		</div></li>
 
 
 		<li><div>
-			<p><textarea rows = "12" cols = "100" id = "txtEleven">var band = prompt("Enter the best band ever");
-while(band != "Aquabats"){
-	band = prompt("Nope, guess again. What is the best band ever");
-}
-alert("Yes, " + band + " is the best band ever");
-</textarea><button id = "btnEleven">Check Answer</button></p>
+			<p><pre>alert("Divide " + 17 / 3);</pre><button id = "btnNine">Check Answer</button></p>
+
+		</div></li>
+
+		<li><div>
+			<p><pre>alert("ParseInt " + parseInt(17 / 3));</pre><button id = "btnTen">Check Answer</button></p>
 		</div></li>
 
 
 		<li><div>
-			<p><textarea rows = "12" cols = "100" id = "txtTwelve">/*TODO
-Write a script to allow the user to enter a number between 1 and 10.  If the user enters anything else, the program
-should let the user know that was not in the program specifications and allow them to enter again */
-</textarea><button id = "btnTwelve">Check Answer</button></p>
-		</div></li>
-
-		<li><div>
-			<p><textarea rows = "12" cols = "100" id = "txtThirteen">var num = parseInt(prompt("Enter a number to count to"));
-var sum = 0;
-for(var i = 0; i < num; i++){
-	alert("Count: " + i);
-	sum += i;
-}
-alert("The sum of the numbers is " + sum);</textarea><button id = "btnThirteen">Check Answer</button></p>
-		</div></li>
-
-		<li><div>
-			<p><textarea rows = "12" cols = "100" id = "txtFourteen">var num = parseInt(prompt("Enter a number to count by:"));
-var sum = 0;
-for(var i = 0; i < 20; i += num){
-	alert("Count: " + i);
-	sum += i;
-}
-alert("The sum of the numbers is " + sum);</textarea><button id = "btnFourteen">Check Answer</button></p>
-		</div></li>
-
-		<li><div>
-			<p><textarea rows = "12" cols = "100" id = "txtFifteen">for(var i = 10; i >= 0; i-=2){
-	alert("Count: " + i);
-}</textarea><button id = "btnFifteen">Check Answer</button></p>
-		</div></li>
-
-		<li><div>
-			<p><textarea rows = "12" cols = "100" id = "txtSixteen">var word = prompt("Enter a word");
-for(var i = 0; i < word.length; i++){
-	var letter = word.charAt(i);
-	alert("Char At: " + letter);
-}</textarea><button id = "btnSixteen">Check Answer</button></p>
+			<p><pre>alert("ToFixed " + parseFloat(17 / 3).toFixed(2));</pre><button id = "btnEleven">Check Answer</button></p>
 		</div></li>
 
 
 		<li><div>
-			<p><textarea rows = "12" cols = "100" id = "txtSeventeen">/*Write a script to allow the user to enter a word, it will show each of the letters in reverse order*/</textarea>
-				<button id = "btnSeventeen">Check Answer</button></p>
+			<p><pre>var num = prompt("Enter a number");
+alert("You entered: " + num);</pre><button id = "btnTwelve">Check Answer</button></p>
 		</div></li>
 
-		<li><div><p><textarea rows = "12" cols = "100" id = "txtEighteen">
-/*Write a script to allow the user to enter a number.  The script will then report back all the even numbers up to that number*/
-				</textarea>
+		<li><div>
+			<p><pre>var txt = prompt("Enter a number");
+alert("Adding two " + txt + 2);</pre><button id = "btnThirteen">Check Answer</button></p>
+		</div></li>
+
+		<li><div>
+			<p><pre>var txt = prompt("Enter a number");
+var num = parseInt(txt);
+alert("Adding two: " + num + 2);</pre><button id = "btnFourteen">Check Answer</button></p>
+		</div></li>
+
+		<li><div>
+			<p><pre>var txt = prompt("Enter a word");
+var num = txt.length;
+alert("Length: " + num);</pre><button id = "btnFifteen">Check Answer</button></p>
+		</div></li>
+
+		<li><div>
+			<p><pre>
+var txt = prompt("Enter a word");
+var letter = txt.charAt(0);
+alert("Char At: " + letter);</pre><button id = "btnSixteen">Check Answer</button></p>
+		</div></li>
+
+
+		<li><div>
+			<p><pre>var txt = prompt("Enter a word");
+var num = prompt("Enter a number less then " + txt.length);
+alert("Char At: " + txt.charAt(num));</pre><button id = "btnSeventeen">Check Answer</button></p>
+		</div></li>
+
+		<li><div>
+			<p>Look in the text box below.  Complete the code to make it print out the last position of whatever word the user enters.</p>
+<textarea rows = "5" cols = "100" id = "txtEighteen">
+var txt = prompt("Enter a word");
+var endPosition = 0;  //Modify this variable to be the position of the last character.
+alert("Last Letter: " + txt); //Modify this code to print out the character using the variable above
+
+</textarea>	
+<br>
 <button id = "btnEighteen">Check Answer</button></p>
+
+</div></li>
+		<li><div>
+			<p>Look in the text box below.  Modify the code to make it print out the remainder of the number divided by 2.  IE: if the user enters 5, its should print 1.  If the user enters 4, it should print 0.</p>
+				
+		<textarea id = "txtNineteen" rows = "5" cols = "100">var num = prompt("Enter a number");
+var ans = 0;  //Modifiy this code to be the remainder of the number divided by 2
+alert("Remainder: " + num);</textarea>
+	<br>
+	<button id = "btnNineteen">Check Answer</button></p>
 		</div></li>
 
 		<li><div>
-			<p><textarea rows = "12" cols = "100" id = "txtNineteen">
-var sentence = prompt("Enter a sentence");
-var space = 0;
-for(var i = 0; i < sentence.length; i++){
-	var letter = sentence.charAt(i);
-	if(letter == ' '){
-		space++;
-	}
-}
-alert("There are " + space  + " spaces in " + sentence);</textarea><button id = "btnNineteen">Check Answer</button></p>
-		</div></li>
-
-		<li><div>
-		<textarea rows = "12" cols = "100" id = "txtTwenty">/*Write a script to allow the user to enter a sentence: the program will report the number of vowels in that sentence */</textarea>
+			<p>Look in the text box below.   
+			Write your own code to allow the user to enter the current temperature in Fahrenheit.  The program will report the same temperature in Celsius.  You may need to research the equation to make the conversion.</p>
+			<p>Have the answer display to two decimal places.</p>
+			<textarea id = "txtTwenty" rows = "5" cols = "100"></textarea>
+			<br>
 			<button id = "btnTwenty">Calculate Celsius</button>
 		</div></li>
 
 
 		</ol>
-
-	 </main> 
+	</main>
 	</div>
 	<footer>
+		
+	
         <p>This page is licensed under <img src = "pics/cc.png" width = "20"> By Kim Murphy 2024 for Tech Moms</p>
-	</footer>	
-    <script src="loops.js"></script>
+	</footer>
+    <script src="script.js"></script>
   </body>
 </html>
