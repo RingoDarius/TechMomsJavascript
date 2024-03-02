@@ -23,7 +23,7 @@ let links = [
     {
         "pageName": "For Loops",
         "URL": "ForLoops.html"
-    }
+    },
         {
         "pageName": "Array",
         "URL": "arrays.html"
