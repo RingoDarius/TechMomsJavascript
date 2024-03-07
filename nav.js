@@ -27,6 +27,10 @@ let links = [
         {
         "pageName": "Array",
         "URL": "arrays.html"
+    },
+    {
+        "pageName": "More Arrays",
+        "URL": "arrays2.html"
     }
 ];
 

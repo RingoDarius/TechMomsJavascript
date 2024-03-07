@@ -91,6 +91,20 @@ nav a:hover{
 }
 
 
+#divFive ol, #divSix ol, #divSeven ol, #divEight ol, #divNine ol, #divTen ol, #divEleven ol, #divTwelve ol, #divThirteen ol{
+
+	padding: 0; 
+	margin: 0;
+	
+	
+}
+
+#divFive ol li, #divSix ol li, #divSeven ol li, #divEight ol li, #divNine ol li, #divTen ol li, #divEleven ol li, #divTwelve ol li, #divThirteen ol li{
+	padding: 0; 
+	margin: 0;
+
+}
+
 main li{
 	padding: .5em .5em;
 	margin: 1em;

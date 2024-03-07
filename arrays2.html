@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Arrays</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src = "nav.js" defer></script>
+  </head>
+  <body>
+		<header>
+		<h1>JavaScript Variable Practice</h1>
+		<p>Look at the following code segements.  For each one do the following:
+		</p>
+		<ul>
+			<li>Predict the Output</li>
+			<li>Check the Answer</li>
+			<li>Discuss why or why not the answer was what you predicted</li>
+			
+		</ul>
+	</header>
+	<div class = "horizontal">
+		<nav id = "nav">
+			
+				
+			<!-- <li><a href = "index.html">Tutorial Home</a></li>
+			<li><a href = "variables.html">JavaScript Variables</a></li>
+			<li><a href = "ifstatements.html">If Statements</a></li>
+			<li><a href = "loops.html">While Loops</a></li>
+			<li><a href = "Forloops.html">For Loops</a></li> -->
+			
+	</nav>
+	  	<main>
+
+		<ol>
+
+		<li><div class = "question">
+		<p><textarea rows = "12" cols = "100" id = "txtEight">var language = ["Javascript", "Java", "c++", "HTML", "CSS", "Python"];
+language.sort();
+language.reverse();
+displayList(language, "divEight");</textarea><button id = "btnEight">Check Answer</button><div id = "divEight"></div></p>
+
+		</div></li>
+
+
+		<li>Observe the code segment.  Predict the output. <div class = "question">
+			<p><textarea rows = "12" cols = "100" id = "txtNine">var dieRolls = [];
+var input = prompt("How many times do you want to roll a die?")
+for(var i = 0; i < input; i++){
+	var die = Math.floor(Math.random() * 6 + 1);
+	dieRolls.push(die);
+}
+displayList(dieRolls, "divNine");</textarea><button id = "btnNine">Check Answer</button><div id = "divNine"></div></p>
+
+		</div></li>
+
+		<li>Display a list of 10 random numbers with a range of 1-100 by following the steps
+			Create an empty numbers array
+			Create a random number with a range of 1 to 100
+			Add that random number to your array 10 times
+			Sort the array from highest to lowest
+			Display the array in a div named divTen<div class = "question">
+			<p><textarea rows = "12" cols = "100" id = "txtTen">
+				</textarea><button id = "btnTen">Check Answer</button><div id = "divTen"></div></p>
+		</div></li>
+
+
+		<li>Observe the code segment.  How is it finding the animal<div class = "question">
+			<p><textarea rows = "12" cols = "100" id = "txtEleven">var zooAnimal = ["zebra", "tiger", "lion", "giraffe", "peacock", "bear", 
+		"elephant", "camel", "monkey", "otter"];
+var input = prompt("Enter an animal");
+var exists = 0;
+for(var i = 0; i < zooAnimal.length; i++){
+	if(zooAnimal[i] == input){
+		exists = 1;
+	}
+}
+if(exists == 0){
+	alert("Sorry, we do not have that animal");
+}
+else{
+	alert("Yes, that animal is in our zoo");
+}</textarea>
+<button id = "btnEleven">Check Answer</button></p>
+		</div></li>
+
+
+		<li>The following code segment uses the following function to create an array of random numbers.
+			You assignment is to complete the code segment to allow the alert button to calculate the number of times the dice rolls doubles.
+			<pre>
+function get20DiceRolls(){
+	var rolls = [];
+	for(var i = 0; i < 20; i++){
+		rolls.push(Math.floor(Math.random() * 6+1));
+	}
+	return rolls;
+}
+			</pre><div class = "question">
+			<p><textarea rows = "12" cols = "100" id = "txtTwelve">//Complete the missing section of the method 
+//Two arrays of 20 random dice rolls
+var dice1 = get20DiceRolls();
+var dice2 = get20DiceRolls();
+//Variable to count the number of times the user rolled "doubles"
+var countDoubles = 0;
+
+//Count the number of times the 
+
+alert("Amount of doubles: " + countDoubles)
+document.getElementById("divTwelve").innerHTML = 
+		"Dice 1 Rolls: " + dice1.toString() + "&lt;br&gt;" +
+		"Dice 2 Rolls: " + dice2.toString();</textarea>
+		<button id = "btnTwelve">Check Answer</button><div id = "divTwelve"></div></p>
+		</div></li>
+
+		<li>Your turn:  Magic Eight Ball: Create an app similar to the Magic Eight Ball.  
+			 When the user clicks the button, it will give a random 
+			 response.  Create an array of responses.  Then create
+			 a random number within the range of your responses
+			 Display the random response in a div named divThirteen  
+			<p><textarea rows = "12" cols = "100" id = "txtThirteen">
+			</textarea>
+			<button id = "btnThirteen">Check Answer</button><div id = "divThirteen"></div></p>
+		</div></li>
+
+
+		</ol>
+		</main>
+		</div>
+    <script src="arrayscript.js"></script>
+  </body>
+</html>
