@@ -62,11 +62,10 @@ document.getElementById("btnFive").onclick = function() {
 
 var newList = [];
 document.getElementById("btnSix").onclick = function() {
-	//var input = prompt("Enter a shopping list item: ");
-	//newList.push(input);
-	//displayList(newList, "divSix");
-	var txt = document.getElementById("txtSix").value;
-	eval(txt);
+	var input = prompt("Enter a shopping list item: ");
+	newList.push(input);
+	displayList(newList, "divSix");
+
 };
 
 document.getElementById("btnSeven").onclick = function() {
