@@ -16,6 +16,10 @@ let links = [
         "pageName": "If Statements",
         "URL": "ifstatements.html"
     },
+     {
+        "pageName": "Array",
+        "URL": "arrays.html"
+    },
     {
         "pageName": "While Loops",
         "URL": "loops.html"
@@ -24,10 +28,7 @@ let links = [
         "pageName": "For Loops",
         "URL": "ForLoops.html"
     },
-        {
-        "pageName": "Array",
-        "URL": "arrays.html"
-    },
+       
     {
         "pageName": "More Arrays",
         "URL": "arrays2.html"
