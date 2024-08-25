@@ -9,6 +9,10 @@ let links = [
         "URL": "index.html"
     },
     {
+        "pageName": "Intro to HTML",
+        "URL": "learnhtml.html"
+    },
+    {
         "pageName": "Variables",
         "URL": "variables.html"
     },
