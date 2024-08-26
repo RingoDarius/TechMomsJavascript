@@ -1,9 +1,16 @@
 
 
 document.getElementById("btnOne").onclick = function() {
-	var txt = document.getElementById("txtOne").value;
-
-	document.getElementById("qOne").innerHTML = txt;
+	if(document.getElementById("qOne").innerHTML == ""){
+	   var txt = document.getElementById("txtOne").value;
+	   document.getElementById("qOne").innerHTML = txt;
+	   document.getElementById("btnOne").innerHTML = "Hide Answer";
+	}
+	else{
+	   document.getElementById("qOne").innerHTML = "";
+	   document.getElementById("btnOne").innerHTML = "Hide Answer";
+	}
+	
 }
 
 
