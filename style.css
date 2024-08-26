@@ -1,12 +1,12 @@
 /*ul, ol, li, h1, h2, h3, a{
 	padding: 0;
 	margin: 0;
-}*/
+
 p{
 	margin: 1rem;
 	
 }
-
+}*/
 body{
 	background-color: #f4f4f4;
 	font-family: Arial, sans-serif;
@@ -55,7 +55,7 @@ footer{
 	
 }
 main{
-	margin-left: 6rem;
+	margin-left: 4rem;
 
 }
 main ol{
@@ -67,7 +67,7 @@ nav{
 
 	left: 0px;
  	padding:  1.5rem;
-	padding-left: 3rem;
+	padding-left: 2rem;
 	
 }
 
