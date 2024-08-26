@@ -6,9 +6,7 @@ p{
 	margin: 1rem;
 	
 }
-#qOne{
-background-color: #666;
-}
+
 body{
 	background-color: #f4f4f4;
 	font-family: Arial, sans-serif;
@@ -57,8 +55,7 @@ footer{
 }
 main{
 	margin-left: 14rem;
-	padding-left: 14rem;
-	background-color: pink;
+
 }
 main ol{
 	margin:1rem 1rem 1rem 1rem;
