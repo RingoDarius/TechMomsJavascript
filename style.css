@@ -6,7 +6,9 @@ p{
 	margin: 1rem;
 	
 }
-
+#qOne{
+background-color: #666;
+}
 body{
 	background-color: #f4f4f4;
 	font-family: Arial, sans-serif;
