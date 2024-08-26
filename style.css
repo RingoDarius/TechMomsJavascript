@@ -20,7 +20,7 @@ header{
 	background-color: #333;
 	color: #fff;
 	padding: .1rem 1rem;
-	position: sticky;
+	
 	width: 100%;
 	
 }
@@ -63,7 +63,7 @@ main ol{
 }
 
 nav{
-	position: fixed;
+
 	left: 0px;
  	padding:  1.5rem;
 	
