@@ -17,24 +17,24 @@ document.getElementById("btnTwo").onclick = function() {
 
 document.getElementById("btnThree").onclick = function() {
    var txt = document.getElementById("txtThree").value;
-	eval(txt);
+document.getElementById("qThree").innerHTML = txt;
 };
 
 document.getElementById("btnFour").onclick = function() {
 	var txt = document.getElementById("txtFour").value;
-	eval(txt);
+	document.getElementById("qFour").innerHTML = txt;
 };
 
 
 
 document.getElementById("btnFive").onclick = function() {
 var txt = document.getElementById("txtFive").value;
-	eval(txt);
+	document.getElementById("qFive").innerHTML = txt;
 };
 
 document.getElementById("btnSix").onclick = function() {
 	var txt = document.getElementById("txtSix").value; 
-	eval(txt);
+	document.getElementById("qSix").innerHTML = txt;
 	
 };
 
@@ -42,7 +42,7 @@ document.getElementById("btnSix").onclick = function() {
 
 document.getElementById("btnSeven").onclick = function() {
 	var txt = document.getElementById("txtSeven").value;
-		eval(txt);
+		document.getElementById("qSeven").innerHTML = txt;
 		
 		
 	};
@@ -50,7 +50,7 @@ document.getElementById("btnSeven").onclick = function() {
 	
 	document.getElementById("btnEight").onclick = function() {
 		var txt = document.getElementById("txtEight").value; 
-		eval(txt);
+		document.getElementById("qEight").innerHTML = txt;
 		
 	};
 	
