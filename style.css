@@ -105,7 +105,7 @@ nav a:hover{
 
 }
 
-main.question li{
+main li.question{
 	padding: .5em .5em;
 	margin: 1em;
 	background-color: white;
