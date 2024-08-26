@@ -2,7 +2,7 @@
 
 document.getElementById("btnOne").onclick = function() {
 	var txt = document.getElementById("txtOne").value;
-	alert("Hello World")
+
 	document.getElementById("qOne").innerHTML = txt;
 }
 
@@ -10,7 +10,7 @@ document.getElementById("btnOne").onclick = function() {
 
 document.getElementById("btnTwo").onclick = function() {
 	var txt = document.getElementById("txtTwo").value;
-	eval(txt);
+	document.getElementById("qTwo").innerHTML = txt;
 };
 
 
