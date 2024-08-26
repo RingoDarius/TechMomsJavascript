@@ -55,7 +55,9 @@ footer{
 	display: flex;
 	
 }
-
+main{
+	margin-left: 14rem;
+}
 main ol{
 	margin:1rem 1rem 1rem 1rem;
 	
@@ -65,7 +67,7 @@ nav{
 	position: fixed;
 	left: 0px;
  	padding:  1.5rem;
-	margin-right: 5 rem;
+	
 }
 
 
