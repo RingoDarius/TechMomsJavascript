@@ -124,14 +124,14 @@ main li.question{
 
 button {
     padding: 10px;
-    background-color: #4CE0B3;
+    background-color:#377771;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #4CE0B3;
 }
 
 textarea {
