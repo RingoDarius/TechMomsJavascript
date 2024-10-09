@@ -87,14 +87,14 @@ nav a {
     text-decoration: none;
     color: #ffffff;
 	margin: .2rem;
-	background-color: #4945a0;
+	background-color: #ED6A5E;
 	padding: .4rem;
 	width: 100%;
 	display: block;
 }
 
 nav a:hover{
-	background-color: #5955b0;
+	background-color: #FF8E72;
 }
 
 
@@ -124,7 +124,7 @@ main li.question{
 
 button {
     padding: 10px;
-    background-color: #4caf50;
+    background-color: #4CE0B3;
     color: #fff;
     border: none;
     cursor: pointer;
